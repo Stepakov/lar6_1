@@ -11,9 +11,8 @@ class PostController extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function method1()
+    public function method()
     {
         return '';
     }
-
 }
